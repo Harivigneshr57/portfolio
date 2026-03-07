@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaQuery.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="scirpt.js" defer></script>
+</head>
+<body>
+    <nav id="sidebar">
+            <ul>
+                <li onclick=HideSidebar()><i class="fa-solid fa-xmark"></i></li>
+                <li>About</li>
+                <li>Skills</li>
+                <li>Projects</li>
+                <li>Experience</li>
+                <li>Contact</li>
+            </ul>
+        </nav>
+        <nav>
+            <ul>
+                <li>Portfolio</li>
+                <li class="hideOnMobile">About</li>
+                <li class="hideOnMobile">Skills</li>
+                <li class="hideOnMobile">Projects</li>
+                <li class="hideOnMobile">Experience</li>
+                <li class="hideOnMobile">Contact</li>
+                <li class="menu" onclick=ShowSidebar()><i class="fa-solid fa-bars"></i></li>
+            </ul>
+        </nav>
+    <main>
+        <section>
+            <div class="welcome">
+                👋 Welcome to my portfolio
+            </div>
+            <h1>Hi, I'm <span>Hari Vignesh</span></h1>
+            <div class="typing-animation"></div>
+            <p>A creative developer passionate about building beautiful, functional, and user-friendly digital experiences.</p>
+            <button>View My Work</button> 
+        </section>
+        <i class="fa-solid fa-code position"></i>
+        <i class="fa-solid fa-database position"></i>
+        <i class="fa-solid fa-angle-down position"></i>
+        <p class="scroll position">scroll down</p>
+    </main>
+    <section id="about">
+        <section class="aboutWrapper">
+            <div class="left-about">
+                <h2>About <span>Me</span></h2>
+                <p>I'm a full-stack developer creating digital products that make a difference. I believe in writing clean, efficient code and designing intuitive user experiences.</p>
+                <p>When I'm not coding, you'll find me exploring new technologies, contributing to open-source projects, or enjoying a good cup of coffee.</p>
+                <!-- <div class="projects-completed">
+                    <h3>10+</h3>
+                    <p>Projects Completed</p>
+                </div> -->
+            </div>
+            <div class="right-about">
+                <img src="images/hari.jpg" alt="developer">
+            </div>
+        </section>
+    </section>
+    <section id="tech-stacks">
+        <h2>Tech <span>Stacks</span></h2>
+        <div class="stacks"></div>
+    </section>
+    <section id="projects">
+        <h2>Featured <span>Projects</span></h2>
+        <p>Here are some of my recent works that showcase my skills and passion for development.</p>
+        <div class="projects">
+            <div class="project">
+                <img src="images/cinesync.png" alt=""> 
+                <h3>CineSync</h3>
+                <div class="techs-stack">
+                    <div class="stack">
+                        REACT
+                    </div>
+                </div>
+                <p>CineSync is a Collaborative Movie Watching Platform.</p>
+                <hr>
+                
+            </div>
+        </div>
+    </section>
+</body>
+</html>
