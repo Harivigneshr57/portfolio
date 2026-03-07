@@ -333,6 +333,9 @@ button:hover{
         object-fit: cover;
     }
 }
+.right-about:hover{
+    border-color: var(--secondary-color);
+}
 
 .left-about{
     display: flex;
