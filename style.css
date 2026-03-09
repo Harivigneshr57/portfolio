@@ -50,10 +50,11 @@ nav ul{
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    gap: .5rem;
 }
 nav li{
     display: flex;
-    padding: min(1rem,10%);
+    padding: min(.5rem,10%);
     justify-content: center;
     align-items: center;
     color: var(--third-color);
@@ -67,6 +68,13 @@ li:first-child{
     color: var(--secondary-color);
 }
 li:hover{
+    background-color: var(--secondary-color);
+    color: var(--fifth-color);
+    border-radius: .5rem;
+    transition: .3s all ease-in-out;
+    cursor: pointer;
+}
+.activeLi{
     background-color: var(--secondary-color);
     color: var(--fifth-color);
     border-radius: .5rem;
@@ -454,7 +462,7 @@ h2 span{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 5rem;
+    padding: 1rem;
     min-height: 100vh;
     background-color: var(--primary-color);
     gap: 3rem;
@@ -682,7 +690,7 @@ footer {
     max-width: 220px;
   }
   
-  .contact-value a {
+   a {
     color: var(--text-primary);
     text-decoration: none;
   }
@@ -795,7 +803,6 @@ footer {
   }
 
   .animate-on-scroll {
-    opacity: 0;
     transform: translateY(30px);
     transition: opacity 0.6s ease, transform 0.6s ease;
   }
@@ -831,7 +838,7 @@ footer {
     left: 0;
     width: 0;
     height: 3px;
-    background: #ca4f17;
+    background: var(--third-color);
     border-radius: 2px;
     transition: width 0.6s cubic-bezier(0.4, 0, 0.2, 1);
   }

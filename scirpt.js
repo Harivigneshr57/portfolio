@@ -207,3 +207,15 @@ function showProjects(category){
 }
 
 showProjects('all');
+
+const li = document.querySelectorAll('li');
+
+li.forEach(btn=>{
+    btn.addEventListener('click',()=>{
+
+        li.forEach(b=>b.classList.remove('activeLi'));
+
+        btn.classList.add('activeLi');
+
+    })
+})
