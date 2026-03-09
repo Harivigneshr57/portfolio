@@ -697,3 +697,177 @@ footer {
     opacity: 0.7;
     margin-top: 2rem;
   }
+
+  /* Tools Section */
+
+  .section {
+    padding: 3rem 0;
+  }
+
+  .tools-section {
+    background: var(--primary-color);
+  }
+
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+  }
+
+  .section-header {
+    text-align: center;
+    margin-bottom: 1.5rem;
+  }
+
+  .marquee-wrapper {
+    overflow: hidden;
+    width: 100%;
+    padding: 0.5rem 0 1rem;
+    mask-image: linear-gradient(to right, transparent, black 10%, black 90%, transparent);
+    -webkit-mask-image: linear-gradient(to right, transparent, black 10%, black 90%, transparent);
+    /* Flex layout to hold both tracks side-by-side */
+    display: flex;
+    gap: 2.5rem;
+    margin-top: 5%;
+  }
+  
+  .marquee-track {
+    display: flex;
+    gap: 2.5rem;
+    width: max-content;
+    flex-shrink: 0; /* Prevent squishing */
+    animation: marqueeScroll 25s linear infinite;
+  }
+  
+  .marquee-wrapper:hover .marquee-track {
+    animation-play-state: paused;
+  }
+  
+  @keyframes marqueeScroll {
+    0% { transform: translateX(0); }
+    /* Translate left by 100% of the track width PLUS the gap width */
+    100% { transform: translateX(calc(-100% - 2.5rem)); }
+  }
+  
+  .marquee-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex: 1; /* Allow equal spreading */
+    gap: 0.75rem;
+    padding: 1.5rem 2rem;
+    background: #f9fafb;
+    border: 1px solid #e5e7eb;
+    border-radius: 1rem;
+    min-width: 150px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .marquee-item:hover {
+    transform: scale(1.05);
+    border-color: var(--third-color);
+    box-shadow: 0 10px 30px rgba(202, 79, 23, 0.1);
+    background: #fff;
+  }
+  
+  .marquee-logo {
+    width: 56px;
+    height: 56px;
+    object-fit: contain;
+    transition: transform 0.3s;
+    background: #ffffff;
+    border-radius: 12px;
+    padding: 6px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  }
+  
+  .marquee-item:hover .marquee-logo {
+    transform: scale(1.15);
+  }
+  
+  .marquee-name {
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: #374151;
+    letter-spacing: 0.02em;
+  }
+
+  .animate-on-scroll {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 0.6s ease, transform 0.6s ease;
+  }
+  
+  .section-header {
+    text-align: center;
+    margin-bottom: 1.5rem;
+  }
+  
+  .section-label {
+    display: block;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    color: var(--third-color);
+    margin-bottom: 0.75rem;
+  }
+  
+  .section-title {
+    font-size: clamp(2rem, 4vw, 3rem);
+    font-weight: 800;
+  }
+
+  .section-title .accent {
+    position: relative;
+  }
+  
+  .section-title .accent::after {
+    content: '';
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+    width: 0;
+    height: 3px;
+    background: #ca4f17;
+    border-radius: 2px;
+    transition: width 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  
+  .animate-on-scroll.visible .section-title .accent::after {
+    width: 100%;
+  }
+  
+  /* --- SCROLL INDICATOR PULSE --- */
+  .scroll-indicator {
+    animation: bounce 2s ease-in-out infinite, fadePulse 3s ease-in-out infinite;
+  }
+  
+  @keyframes fadePulse {
+    0%, 100% { opacity: 0.6; }
+    50% { opacity: 1; }
+  }
+  
+  /* --- BADGE ENTRANCE --- */
+  .floating-badge {
+    opacity: 0;
+    animation: floatBadge 3s ease-in-out infinite, badgeEnter 0.6s ease forwards 1.2s;
+  }
+  
+  @keyframes badgeEnter {
+    from { opacity: 0; transform: scale(0.8) translateY(10px); }
+    to { opacity: 1; transform: scale(1) translateY(0); }
+  }
+  
+  /* --- SMOOTH PAGE LOAD --- */
+  body {
+    animation: pageLoad 0.6s ease;
+  }
+  
+  @keyframes pageLoad {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+  
