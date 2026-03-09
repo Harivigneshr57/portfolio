@@ -31,5 +31,179 @@ skillsData.skills.forEach(skill => {
   });
 const project = document.querySelector('.projects');
 const projects = [
-    
-]
+    {
+        img:'images/cinesync.png',
+        title:'CineSync',
+        techStacks:['REACT','NODE','MYSQL'],
+        desc:'CineSync lets users watch movies together online with perfectly synchronized playback. It creates a shared viewing experience where everyone watches the same scene at the same time.',
+        git:['<i class="fa-brands fa-github"></i>','CODE','https://github.com/Harivigneshr57/CineSync'],
+        live:['<i class="fa-solid fa-share-from-square"></i>','LIVE DEMO','https://cine-sync-jade.vercel.app/'],
+        category:['react','node','all']
+    },
+    {
+        img:'images/onlinecourse.png',
+        title:'Online Course App',
+        techStacks:['JAVA','MYSQL'],
+        desc:'An online learning platform where users can explore and enroll in various courses. It provides structured lessons to help users learn new skills anytime, anywhere.',
+        git:['<i class="fa-brands fa-github"></i>','CODE','https://github.com/Harivigneshr57/Online-course-app'],
+        category:['java','all']
+    },
+    {
+        img:'images/haspmap.png',
+        title:'HashMap',
+        techStacks:['JAVA','MYSQL'],
+        desc:'A password manager built with a self-implemented HashMap to securely store and manage credentials.Highlights custom data structure implementation and efficient lookup operations.',
+        git:['<i class="fa-brands fa-github"></i>','CODE','https://github.com/Harivigneshr57/Password-Manger-using-Hashmap'],
+        category:['java','all']
+    },
+    {
+        img:'images/notes.png',
+        title:'Notes App',
+        techStacks:['NODE','MYSQL'],
+        desc:'A notes management app where users can create, update, and delete notes seamlessly.Built to help users keep their ideas and tasks organized in one place.',
+        git:['<i class="fa-brands fa-github"></i>','CODE','https://github.com/Harivigneshr57/Notes-App'],
+        category:['node','all']
+    }
+    ,{
+        img:'images/solarsystem.png',
+        title:'Solar System',
+        techStacks:['NODE'],
+        desc:'An interactive website that explores the planets and structure of the solar system.Designed to present space information in a visually engaging way.',
+        git:['<i class="fa-brands fa-github"></i>','CODE','https://github.com/Harivigneshr57/SolarSystem-ejs-'],
+        category:['node','all']
+    },
+    {
+        img:'images/collage.png',
+        title:'Collage Craft',
+        techStacks:['HTML','CSS','JAVASCRIPT'],
+        desc:'An application that lets users create beautiful photo collages by arranging multiple images.Built to provide a simple and interactive collage-design experience.',
+        git:['<i class="fa-brands fa-github"></i>','CODE','https://github.com/Harivigneshr57/College-Maker'],
+        live:['<i class="fa-solid fa-share-from-square"></i>','LIVE DEMO','https://harivigneshr-5hrwoi23-8443.zcodecorp.in/HTMLCLASS/JS-Project/collage.html'],
+        category:['javascript','all']
+    },
+    {
+        img:'images/bank.png',
+        title:'Bank Management',
+        techStacks:['HTMl','CSS','JAVASCRIPT'],
+        desc:'A banking system application that manages user accounts and financial transactions efficiently.Showcases structured data handling and core banking functionalities.',
+        git:['<i class="fa-brands fa-github"></i>','CODE','https://github.com/Harivigneshr57/BankingApp'],
+        live:['<i class="fa-solid fa-share-from-square"></i>','LIVE DEMO','https://harivigneshr-5hrwoi23-8443.zcodecorp.in/HTMLCLASS/Advanced-JS/Assignment004/Bank.html'],
+        category:['javascript','all']
+    },
+    {
+        img:'images/shopping.png',
+        title:'Shopping Cart',
+        techStacks:['HTMl','CSS','JAVASCRIPT'],
+        desc:'A shopping cart application that handles product selection, quantity updates, and total price calculation.Showcases dynamic state management and interactive UI functionality.',
+        git:['<i class="fa-brands fa-github"></i>','CODE','https://github.com/Harivigneshr57/ShoopingCart'],
+        live:['<i class="fa-solid fa-share-from-square"></i>','LIVE DEMO','https://harivigneshr-5hrwoi23-8443.zcodecorp.in/HTMLCLASS/Advanced-JS/Assignment003/Assignment003-01/cart.html#ls'],
+        category:['javascript','all']
+    },
+    {
+        img:'images/flight.png',
+        title:'Flight Tracker',
+        techStacks:['HTMl','CSS','JAVASCRIPT'],
+        desc:'A flight tracking application that retrieves and displays real-time flight information.Demonstrates API integration and dynamic data visualization.',
+        git:['<i class="fa-brands fa-github"></i>','CODE','https://github.com/Harivigneshr57/FlightTracker'],
+        live:['<i class="fa-solid fa-share-from-square"></i>','LIVE DEMO','https://harivigneshr-5hrwoi23-8443.zcodecorp.in/HTMLCLASS/Advanced-JS/Assignment002/Assignment002-02/flightTracker.html'],
+        category:['javascript','all']
+    },
+    {
+        img:'images/ff.png',
+        title:'Free Fire Website',
+        techStacks:['HTMl','CSS','REDESIGN'],
+        desc:'A clone of the Free Fire website that replicates its design and user interface.Created to demonstrate front-end development and UI replication skills.',
+        git:['<i class="fa-brands fa-github"></i>','CODE','https://github.com/Harivigneshr57/FlightTracker'],
+        live:['<i class="fa-solid fa-share-from-square"></i>','LIVE DEMO','https://harivigneshr-5hrwoi23-8443.zcodecorp.in/HTMLCLASS/Advanced-JS/Assignment002/Assignment002-02/flightTracker.html'],
+        category:['html','all']
+    },
+    {
+        img:'images/fylo.png',
+        title:'FYLO',
+        techStacks:['HTML','CSS','REDESIGN'],
+        desc:'A clone of the FYLO website that replicates its design and user interface.Created to demonstrate front-end development and UI replication skills.',
+        git:['<i class="fa-brands fa-github"></i>','CODE','https://github.com/Harivigneshr57/Fylo'],
+        live:['<i class="fa-solid fa-share-from-square"></i>','LIVE DEMO','https://harivigneshr-5hrwoi23-8443.zcodecorp.in/HTMLCLASS/assignment%20/Assaignment%20013/recreate.html'],
+        category:['html','all']
+    },
+    {
+        img:'images/object.png',
+        title:'OBJECT FINDING',
+        techStacks:['SCRATCH'],
+        desc:'A project that uses computer vision to detect and locate objects within an image.Demonstrates image processing and automated object recognition.',
+        live:['<i class="fa-solid fa-share-from-square"></i>','LIVE DEMO','https://scratch.mit.edu/projects/1191329105/fullscreen/'],
+        category:['scratch','all']
+    },
+    {
+        img:'images/ctach.png',
+        title:'CATCH THE APPLE',
+        techStacks:['SCRATCH'],
+        desc:'A fun browser-based game where players control a basket to catch falling apples.Built to showcase animation, collision detection, and scoring mechanics.',
+        live:['<i class="fa-solid fa-share-from-square"></i>','LIVE DEMO','https://scratch.mit.edu/projects/1191234055/fullscreen/'],
+        category:['scratch','all']
+    }
+] 
+
+const buttons = document.querySelectorAll('.category');
+
+buttons.forEach(btn=>{
+    btn.addEventListener('click',()=>{
+
+        buttons.forEach(b=>b.classList.remove('active'));
+
+        btn.classList.add('active');
+
+        const category = btn.id;
+
+        showProjects(category);
+
+    })
+})
+
+function showProjects(category){
+
+    project.innerHTML = '';
+
+    const filtered = category === 'all'
+        ? projects
+        : projects.filter(p => p.category.includes(category));
+
+    filtered.forEach(p=>{
+
+        const stacks = p.techStacks.map(t=>`<div class="stack">${t}</div>`).join('');
+
+        const live = p.live ? `
+        <div class="live" onclick="window.open('${p.live[2]}')">
+            ${p.live[0]} 
+        </div>` : '';
+
+        const git = p.git ? `
+        <div class="git" onclick="window.open('${p.git[2]}')">
+            ${p.git[0]}
+        </div>` : '';
+
+        project.innerHTML += `
+        <div class="project">
+            <img src="${p.img}">
+            <h3>${p.title}</h3>
+
+            <div class="techs-stack">
+                ${stacks}
+            </div>
+
+            <p id="desc">${p.desc}</p>
+
+            <hr>
+
+            <div class="preview">
+                ${git}
+                ${live}
+            </div>
+        </div>
+        `;
+
+    })
+
+}
+
+showProjects('all');

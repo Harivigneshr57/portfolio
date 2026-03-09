@@ -8,18 +8,7 @@
     .hideOnMobile{
         display: none;
     }
-    .menu{
-        display: block;
-    }
-    nav{
-        top: 0;
-    }
     .scroll{
         left: 40%;
-    }
-}
-@media (max-width:425px) {
-    #sidebar{
-        width: 100%;
     }
 }
