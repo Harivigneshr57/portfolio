@@ -38,7 +38,7 @@ const projects = [
         desc:'CineSync lets users watch movies together online with perfectly synchronized playback. It creates a shared viewing experience where everyone watches the same scene at the same time.',
         git:['<i class="fa-brands fa-github"></i>','CODE','https://github.com/Harivigneshr57/CineSync'],
         live:['<i class="fa-solid fa-share-from-square"></i>','LIVE DEMO','https://cine-sync-jade.vercel.app/'],
-        category:['react','node','all']
+        category:['react','node','all','group']
     },
     {
         img:'images/onlinecourse.png',
@@ -141,6 +141,15 @@ const projects = [
         desc:'A fun browser-based game where players control a basket to catch falling apples.Built to showcase animation, collision detection, and scoring mechanics.',
         live:['<i class="fa-solid fa-share-from-square"></i>','LIVE DEMO','https://scratch.mit.edu/projects/1191234055/fullscreen/'],
         category:['scratch','all']
+    },
+    {
+        title: "Ram Nath Kovind",
+       category: ['group'],
+       desc: "A tribute webpage created for former President Ram Nath Kovind. This project was developed collaboratively with a class of 30 members and completed within a single day, focusing on clean design, responsive layout.",
+       techStacks: ["JavaScript", "HTML", "CSS", "Responsive"],
+       img: "images/ramnath.png",
+       git:['<i class="fa-brands fa-github"></i>','CODE','https://github.com/hari786-master/Ram-Nath-Kovindh'],
+       live:['<i class="fa-solid fa-share-from-square"></i>','LIVE DEMO','https://hari786-master.github.io/Ram-Nath-Kovindh/']
     }
 ] 
 
@@ -183,7 +192,7 @@ function showProjects(category){
         </div>` : '';
 
         project.innerHTML += `
-        <div class="project">
+        <div class="project" data-aos="fade-up">
             <img src="${p.img}">
             <h3>${p.title}</h3>
 

@@ -452,7 +452,7 @@ h2 span{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 1rem;
+    padding: 2rem;
     min-height: 100vh;
     background-color: var(--primary-color);
     gap: 3rem;

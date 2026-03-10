@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="mediaQuery.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <script src="scirpt.js" defer></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </head>
 <body>
         <nav>
@@ -29,18 +31,16 @@
             <p>A creative developer passionate about building beautiful, functional, and user-friendly digital experiences.</p>
             <a href="#projects"><button>View My Work</button> </a>
         </section>
-        <i class="fa-solid fa-code position hideOnMobile"></i>
-        <i class="fa-solid fa-database position hideOnMobile"></i>
         <a href="#about"><i class="fa-solid fa-angle-down position hideOnMobile"></i></a>
     </main>
     <section id="about">
         <section class="aboutWrapper">
-            <div class="left-about">
+            <div class="left-about" data-aos="zoom-in-right">
                 <h2>About <span>Me</span></h2>
                 <p>I'm a Enthusiastic Programmer creating digital products that make a difference. I believe in writing clean, efficient code and designing intuitive user experiences.</p>
                 <p>When I'm not coding, you'll find me exploring new technologies, contributing to open-source projects.</p>
             </div>
-            <div class="right-about">
+            <div class="right-about" data-aos="zoom-in-left">
                 <img src="images/hari.jpg" alt="developer">
             </div>
         </section>
@@ -54,11 +54,12 @@
         <p id="para">Here are some of my recent works that showcase my skills and passion for development.</p>
         <div class="categoriess">
             <button class="category active" id="all">All</button>
-            <button class="category" id="react">React</button>
+            <button class="category" id="group">Group Project</button>
             <button class="category" id="java">Java</button>
             <button class="category" id="node">Node</button>
+            <button class="category" id="react">React</button>  
             <button class="category" id="javascript">JavaScript</button>
-            <button class="category" id="html">Html</button>
+            <button class="category" id="html">HTML</button>
             <button class="category" id="scratch">Scratch</button>
         </div>
         <div class="projects">
@@ -247,5 +248,8 @@
         </div>
         <div class="copyright">© 2026 Harivignesh. All rights reserved.</div>
     </footer>
+    <script>
+        AOS.init();
+      </script>
 </body>
 </html>
