@@ -158,6 +158,8 @@ const buttons = document.querySelectorAll('.category');
 buttons.forEach(btn=>{
     btn.addEventListener('click',()=>{
 
+
+
         buttons.forEach(b=>b.classList.remove('active'));
 
         btn.classList.add('active');
@@ -223,6 +225,9 @@ li.forEach(btn=>{
     btn.addEventListener('click',()=>{
 
         li.forEach(b=>b.classList.remove('activeLi'));
+
+        if(btn.innerText == "Portfolio")
+            return;
 
         btn.classList.add('activeLi');
 
