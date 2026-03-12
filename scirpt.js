@@ -78,7 +78,7 @@ const projects = [
         techStacks:['HTML','CSS','JAVASCRIPT'],
         desc:'An application that lets users create beautiful photo collages by arranging multiple images.Built to provide a simple and interactive collage-design experience.',
         git:['<i class="fa-brands fa-github"></i>','CODE','https://github.com/Harivigneshr57/College-Maker'],
-        live:['<i class="fa-solid fa-share-from-square"></i>','LIVE DEMO','https://harivigneshr-5hrwoi23-8443.zcodecorp.in/HTMLCLASS/JS-Project/collage.html'],
+        live:['<i class="fa-solid fa-share-from-square"></i>','LIVE DEMO','https://harivigneshr57.github.io/College-Maker/collage.html'],
         category:['javascript','all']
     },
     {
@@ -87,7 +87,7 @@ const projects = [
         techStacks:['HTMl','CSS','JAVASCRIPT'],
         desc:'A banking system application that manages user accounts and financial transactions efficiently.Showcases structured data handling and core banking functionalities.',
         git:['<i class="fa-brands fa-github"></i>','CODE','https://github.com/Harivigneshr57/BankingApp'],
-        live:['<i class="fa-solid fa-share-from-square"></i>','LIVE DEMO','https://harivigneshr-5hrwoi23-8443.zcodecorp.in/HTMLCLASS/Advanced-JS/Assignment004/Bank.html'],
+        live:['<i class="fa-solid fa-share-from-square"></i>','LIVE DEMO','https://harivigneshr57.github.io/BankingApp/Bank.html'],
         category:['javascript','all']
     },
     {
@@ -96,7 +96,7 @@ const projects = [
         techStacks:['HTMl','CSS','JAVASCRIPT'],
         desc:'A shopping cart application that handles product selection, quantity updates, and total price calculation.Showcases dynamic state management and interactive UI functionality.',
         git:['<i class="fa-brands fa-github"></i>','CODE','https://github.com/Harivigneshr57/ShoopingCart'],
-        live:['<i class="fa-solid fa-share-from-square"></i>','LIVE DEMO','https://harivigneshr-5hrwoi23-8443.zcodecorp.in/HTMLCLASS/Advanced-JS/Assignment003/Assignment003-01/cart.html#ls'],
+        live:['<i class="fa-solid fa-share-from-square"></i>','LIVE DEMO','https://harivigneshr57.github.io/ShoopingCart/cart.html'],
         category:['javascript','all']
     },
     {
@@ -105,7 +105,7 @@ const projects = [
         techStacks:['HTMl','CSS','JAVASCRIPT'],
         desc:'A flight tracking application that retrieves and displays real-time flight information.Demonstrates API integration and dynamic data visualization.',
         git:['<i class="fa-brands fa-github"></i>','CODE','https://github.com/Harivigneshr57/FlightTracker'],
-        live:['<i class="fa-solid fa-share-from-square"></i>','LIVE DEMO','https://harivigneshr-5hrwoi23-8443.zcodecorp.in/HTMLCLASS/Advanced-JS/Assignment002/Assignment002-02/flightTracker.html'],
+        live:['<i class="fa-solid fa-share-from-square"></i>','LIVE DEMO','https://harivigneshr57.github.io/FlightTracker/flightTracker.html'],
         category:['javascript','all']
     },
     {
@@ -113,7 +113,7 @@ const projects = [
         title:'Free Fire Website',
         techStacks:['HTMl','CSS','REDESIGN'],
         desc:'A clone of the Free Fire website that replicates its design and user interface.Created to demonstrate front-end development and UI replication skills.',
-        git:['<i class="fa-brands fa-github"></i>','CODE','https://github.com/Harivigneshr57/FlightTracker'],
+        git:['<i class="fa-brands fa-github"></i>','CODE','https://harivigneshr57.github.io/Free-Fire-Website/homepage.html'],
         live:['<i class="fa-solid fa-share-from-square"></i>','LIVE DEMO','https://harivigneshr-5hrwoi23-8443.zcodecorp.in/HTMLCLASS/Advanced-JS/Assignment002/Assignment002-02/flightTracker.html'],
         category:['html','all']
     },
@@ -123,7 +123,7 @@ const projects = [
         techStacks:['HTML','CSS','REDESIGN'],
         desc:'A clone of the FYLO website that replicates its design and user interface.Created to demonstrate front-end development and UI replication skills.',
         git:['<i class="fa-brands fa-github"></i>','CODE','https://github.com/Harivigneshr57/Fylo'],
-        live:['<i class="fa-solid fa-share-from-square"></i>','LIVE DEMO','https://harivigneshr-5hrwoi23-8443.zcodecorp.in/HTMLCLASS/assignment%20/Assaignment%20013/recreate.html'],
+        live:['<i class="fa-solid fa-share-from-square"></i>','LIVE DEMO','https://harivigneshr57.github.io/Fylo/recreate.html'],
         category:['html','all']
     },
     {
